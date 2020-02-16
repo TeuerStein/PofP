@@ -1,0 +1,82 @@
+<!DOCTYPE hml>
+<html>
+	<head>
+		<link rel="stylesheet" href="../css_bio/style.css">
+		<meta charset="utf-8">
+		<title>NewO</title>
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script>
+			$(function() {
+				$(".content_1").delay(1700).fadeTo( "slow", 1 );
+			});
+			
+			$(function() {
+				$(".content_2").delay(1800).fadeTo( "slow", 1 );
+			});
+			
+			$(function() {
+				$(".content_3").delay(1900).fadeTo( "slow", 1 );
+			});
+			
+			$(function() {
+				$(".footer").delay(1900).fadeTo( "slow", 1 );
+			});
+		</script>
+	</head>
+	<body>
+		<div class="box">
+			<article class="content_1">My name is Alexandr, 17 years old. I live at Wroclaw and study IT at University of Business in Wroclaw.
+										I want to study and work as a web developer, and I think I manage.</article>
+			<article class="content_2"></article>
+			<article class="content_3">From 2008 to 2017 I went to school, I did not gain any useful skills, and believing that college will give me the necessary knowledge, 
+													I graduated 2 years and realized that this is not the place that will give the necessary knowledge for my specialty and I began to look at options for self-development and change of place of study. 
+													After a while I decided to move to Wroclaw, Poland to study at a university.
+													At the moment I am successfully studying at the Polish University and independently study the technologies for creating web pages.
+													<br>
+													<br>
+													<br>
+													In 2016, I became acquainted with C++ programming language, and from 2018, as a compulsory programming language in my college, was C. At this time, I studied the type of HTML data. After entering university and up to this point I changed 2 programming languages. From C++ I switched to Ruby, I wanted to learn On Rails, but later switched to Python and its FrameWork Django. I am currently building web pages as Full Stack Developer using JS with jQuery and Python with Django.
+													</article>
+			
+			<footer class="footer">
+				<p class="footer-p1">You can find me here</p>
+				<div class="footer-obj_1">
+					<p>Mail: xenkai123456789@gmail.com</p>
+					<br>
+					<p>Telegram: AlexIsHereE</p>
+					<br>
+					<p>Viber: +380 99 243 4263</p>
+				</div>
+				<div class="footer-obj_2">
+					<p>Phone: +48 574 001 484</p>
+					<br>
+					<p>Discord: Alex is here#3859</p>
+					<br>
+					<p>Instagram: david__tr.lt.scd</p>
+				</div>
+			</footer>
+		</div>
+		
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<div id="p_prldr">
+			<div class="contpree block_of_the_load">
+				<span class="svg_anm"></span>
+				<br>
+				<img class="contpre" src="../img/zagruzka.gif">
+				<br>
+				<h1 class="load_h1">Made in a week</h1>
+				<br>
+				<small></small>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(window).on('load', function(){
+				var $preloader = $('#p_prldr'),
+				$svg_anm   = $preloader.find('.svg_anm');
+				$svg_anm.fadeOut();
+				$preloader.delay(500).fadeOut('slow');
+			});
+		</script>
+	</body>
+</html>

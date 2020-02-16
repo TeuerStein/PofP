@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="style.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	</head>
+	<body>
+		<div class="box">
+			{% for alls in wszystko %}
+			<div class="divs">
+				<p class="p1">{{ alls.name }}</p>
+				<p class="p2">{{ alls.about }}</p>
+				<p class="p3">{{ alls.published|date:"d.m.Y H:i:s" }}</p>
+			</div>
+			{% endfor %}
+		</div>
+	</body>
+</html>
